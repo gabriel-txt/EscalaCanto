@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-O **EscalaCanto** é um sistema desenvolvido para auxiliar na organização de escalas de músicas para cultos, proporcionando um gerenciamento eficiente das músicas, músicos e equipes envolvidas. O objetivo principal é facilitar a administração das listas de músicas, o compartilhamento de escalas e o acompanhamento do histórico de execuções, garantindo um fluxo de trabalho mais organizado para ministérios de louvor.
+O **EscalaCanto** é um sistema desenvolvido para auxiliar na organização de escalas de músicas para cultos, auxiliando no gerenciamento das músicas, músicos e equipes envolvidas. O objetivo principal é facilitar a administração das listas de músicas, o compartilhamento de escalas e o acompanhamento do histórico de execuções, garantindo um fluxo de trabalho mais organizado para ministérios de louvor.
 
 Esse projeto surgiu da necessidade de amigos que desejam aprender sobre desenvolvimento de sistemas, servindo como uma aplicação prática para explorar conceitos de engenharia de software, banco de dados e desenvolvimento web ou mobile.
 
