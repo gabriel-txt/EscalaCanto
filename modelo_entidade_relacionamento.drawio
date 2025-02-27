@@ -4,22 +4,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RL7DwfR_LRop4ybQXWRN-1" value="MÚSICAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RL7DwfR_LRop4ybQXWRN-1" value="MÚSICAS" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="140" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RL7DwfR_LRop4ybQXWRN-2" value="MÚSICOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="RL7DwfR_LRop4ybQXWRN-2" value="MÚSICOS" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RL7DwfR_LRop4ybQXWRN-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="350" width="80" height="80" as="geometry" />
+        <mxCell id="RL7DwfR_LRop4ybQXWRN-3" value="" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RL7DwfR_LRop4ybQXWRN-4" value="CULTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="RL7DwfR_LRop4ybQXWRN-4" value="CULTO" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RL7DwfR_LRop4ybQXWRN-5" value="ARTISTA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RL7DwfR_LRop4ybQXWRN-5" value="ARTISTA" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RL7DwfR_LRop4ybQXWRN-6" value="FUNÇÃO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RL7DwfR_LRop4ybQXWRN-6" value="FUNÇÃO" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
