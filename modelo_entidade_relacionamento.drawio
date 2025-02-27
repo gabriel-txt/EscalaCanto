@@ -34,6 +34,15 @@
         <mxCell id="UMmWoxuNf909gZgpW7HB-1" value="TONALIDADES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="UMmWoxuNf909gZgpW7HB-2" value="exerce" style="rhombus;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UMmWoxuNf909gZgpW7HB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;curved=1;" edge="1" parent="1" source="RL7DwfR_LRop4ybQXWRN-2" target="UMmWoxuNf909gZgpW7HB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="265" as="sourcePoint" />
+            <mxPoint x="761" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
