@@ -22,7 +22,7 @@ São as músicas que vamos executar nos cultos, evento set cetera
 
 ### Músicos
 
-São os integrates do ministério de música de cada igreja local
+São os integrates do ministério de música de cada igreja local, sejam instrumentistas, sejam vocalistas
 
 ### Culto
 
