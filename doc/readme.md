@@ -24,7 +24,7 @@ São as músicas que vamos executar nos cultos, evento set cetera
 
 São os integrates do ministério de música de cada igreja local, sejam instrumentistas, sejam vocalistas
 
-### Culto
+### Escala Culto
 
 São os dias oficiais de reunião dos membros e eventos  da comunidade
 
