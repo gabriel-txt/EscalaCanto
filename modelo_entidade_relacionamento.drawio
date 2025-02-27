@@ -17,7 +17,7 @@
           <mxGeometry x="354" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RL7DwfR_LRop4ybQXWRN-5" value="ARTISTA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RL7DwfR_LRop4ybQXWRN-6" value="FUNÇÃO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
