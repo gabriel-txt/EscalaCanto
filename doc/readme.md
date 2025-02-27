@@ -8,6 +8,10 @@
     - [Culto](#culto)
     - [Função](#função)
 
+
+## Modelo
+- [draw.io](https://app.diagrams.net/#HChewieSoft%2FEscalaCanto%2Fmain%2Fmodelo_entidade_relacionamento.drawio#%7B%22pageId%22%3A%225vH7gjnpK38CFrfJnVCy%22%7D)
+
 ---
 
 ## Entidades
