@@ -2,6 +2,7 @@
 
 - [Modelo Entidade Relacionamento](#modelo-entidade-relacionamento)
   - [Modelo](#modelo)
+    - [Material de Apoio teórico](#material-de-apoio-teórico)
   - [Entidades](#entidades)
     - [Músicas](#músicas)
     - [Artista](#artista)
@@ -16,6 +17,10 @@
 - [draw.io](https://app.diagrams.net/#HChewieSoft%2FEscalaCanto%2Fmain%2Fmodelo_entidade_relacionamento.drawio#%7B%22pageId%22%3A%225vH7gjnpK38CFrfJnVCy%22%7D)
 
 ![DER](./modelo_entidade_relacionamento.drawio.svg)
+
+### Material de Apoio teórico
+
+:link: [DevMedia - MER e DER: Modelagem de Bancos de Dados](https://www.devmedia.com.br/mer-e-der-modelagem-de-bancos-de-dados/14332)
 
 ---
 
