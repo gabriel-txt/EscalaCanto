@@ -163,6 +163,18 @@
         <mxCell id="5YsJFOS2C-EcRoHomSBd-42" value="(0,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-1">
           <mxGeometry x="738" y="560.5" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="91YeXnPzCWtQWNc_IhD9-0" value="TIPO_EVENTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-1">
+          <mxGeometry x="322" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="91YeXnPzCWtQWNc_IhD9-2" value="classifica" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-1">
+          <mxGeometry x="334" y="180" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="91YeXnPzCWtQWNc_IhD9-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="5YsJFOS2C-EcRoHomSBd-1" source="5YsJFOS2C-EcRoHomSBd-38" target="91YeXnPzCWtQWNc_IhD9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="372" y="324" as="sourcePoint" />
+            <mxPoint x="422" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
