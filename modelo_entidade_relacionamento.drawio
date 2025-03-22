@@ -190,12 +190,6 @@
         <mxCell id="keDgH_HDW0-6vQzka-8k-8" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="keDgH_HDW0-6vQzka-8k-5">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="keDgH_HDW0-6vQzka-8k-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="3Fhdh68ZYhgmU5-VWTLy-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="610" as="sourcePoint" />
-            <mxPoint x="440" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="keDgH_HDW0-6vQzka-8k-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="3Fhdh68ZYhgmU5-VWTLy-1" source="keDgH_HDW0-6vQzka-8k-0" target="keDgH_HDW0-6vQzka-8k-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
