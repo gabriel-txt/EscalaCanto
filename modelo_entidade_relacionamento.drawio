@@ -148,7 +148,7 @@
         <mxCell id="5YsJFOS2C-EcRoHomSBd-37" value="" style="group;" vertex="1" connectable="0" parent="5YsJFOS2C-EcRoHomSBd-1">
           <mxGeometry x="322" y="334" width="166" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="5YsJFOS2C-EcRoHomSBd-38" value="ESCALA CULTO&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-37">
+        <mxCell id="5YsJFOS2C-EcRoHomSBd-38" value="EVENTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-37">
           <mxGeometry y="5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5YsJFOS2C-EcRoHomSBd-39" value="(0,n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-37">
