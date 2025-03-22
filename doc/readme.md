@@ -68,8 +68,8 @@ Juntamos Jorge Ferrari, Bill e Gabriel, para pensarmos nos atributos do modelo.
 
 ```text
 Entidade artista 
-Nome
-Fk música(pivot)
+✅ Nome
+✅ Fk música(pivot)
 
 Entidade música
 Nome
@@ -92,14 +92,14 @@ docId(CPF)
 
 
 EscalaCuto
-Data(datetime)
-Alterar nome do atributo escalaculto para "Evento"
-FK Tipo
-Descrição
+✅ Data(datetime)
+✅ Alterar nome do atributo escalaculto para "Evento"
+✅ FK Tipo
+✅ Descrição
 
 
-TipoEvento(adicionar esta entidade)
-Nome
+✅ TipoEvento(adicionar esta entidade)
+✅ Nome
 ```
 
 #### Anotações do Gabriel
@@ -137,5 +137,8 @@ Nome
 ![DER](./modelo_entidade_relacionamento.drawio.svg)
 
 - Modelo **depois** das alterações nas Entidades
+
+  - [x] Entidades `escala_culto` alterada para `evento`
+  - [x] Adição da entidade `tipo_evento`
 
 ![DER](./assets/modelo_entidade_relacionamento-MER_ver3.svg)
