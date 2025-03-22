@@ -166,7 +166,7 @@
         <mxCell id="91YeXnPzCWtQWNc_IhD9-0" value="TIPO_EVENTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-1">
           <mxGeometry x="18" y="339" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91YeXnPzCWtQWNc_IhD9-2" value="classifica" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-1">
+        <mxCell id="91YeXnPzCWtQWNc_IhD9-2" value="classificado" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="5YsJFOS2C-EcRoHomSBd-1">
           <mxGeometry x="198" y="324" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="91YeXnPzCWtQWNc_IhD9-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5YsJFOS2C-EcRoHomSBd-1" source="5YsJFOS2C-EcRoHomSBd-38" target="91YeXnPzCWtQWNc_IhD9-2">
