@@ -2,6 +2,8 @@
 
 - [Modelo Entidade Relacionamento](#modelo-entidade-relacionamento)
   - [Modelo](#modelo)
+    - [MER Entidades](#mer-entidades)
+    - [Entidades com atributos](#entidades-com-atributos)
     - [Material de Apoio teórico](#material-de-apoio-teórico)
   - [Entidades](#entidades)
     - [Músicas](#músicas)
@@ -18,9 +20,15 @@
 
 ## Modelo
 
-- [draw.io](https://app.diagrams.net/#HChewieSoft%2FEscalaCanto%2Fmain%2Fmodelo_entidade_relacionamento.drawio#%7B%22pageId%22%3A%225vH7gjnpK38CFrfJnVCy%22%7D)
+- [draw.io](https://app.diagrams.net/#HChewieSoft%2FEscalaCanto%2Fmain%2Fmodelo_entidade_relacionamento.drawio#%7B%22pageId%22%3A%22eujvrq_PeS3J3ftfPqxR%22%7D)
+
+### MER Entidades
 
 ![DER](./assets/modelo_entidade_relacionamento-MER_ver3.svg)
+
+### Entidades com atributos
+
+![DER](./assets/modelo_entidade_relacionamento-MER_ver4.drawio.svg)
 
 ### Material de Apoio teórico
 
@@ -140,3 +148,7 @@ EscalaCuto
   - [x] Adição da entidade `tipo_evento`
 
 ![DER](./assets/modelo_entidade_relacionamento-MER_ver3.svg)
+
+- Modelos com os atributos definidos
+
+![DER](./assets/modelo_entidade_relacionamento-MER_ver4.drawio.svg)
