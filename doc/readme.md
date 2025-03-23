@@ -69,36 +69,34 @@ Juntamos Jorge Ferrari, Bill e Gabriel, para pensarmos nos atributos do modelo.
 ```text
 Entidade artista 
 ✅ Nome
-✅ Fk música(pivot)
+✅ Fk música (pivot)
 
 Entidade música
-Nome
-Foreign Key Tom
-Fk artista (pivot)
-Bpm(pivot)
-Cifras(pivot)
-Lyrics(pivot?)
-Link_versão(pivot)
+✅ Nome
+✅ Foreign Key Tom
+✅ Fk artista (pivot)
+✅ Bpm (pivot)
+✅ Cifras (pivot)
+✅ Lyrics (pivot?)
+✅ Link_versão (pivot)
 
 Entidade tonalidade
-Tom
+✅ Tom
 
 Entidade função
-Nome
+✅ Nome
+
 Entidade músico
-Nome
-docId(CPF)
-
-
+✅ Nome
+✅ docId (CPF)
 
 EscalaCuto
-✅ Data(datetime)
+✅ Data (datetime)
 ✅ Alterar nome do atributo escalaculto para "Evento"
 ✅ FK Tipo
 ✅ Descrição
 
-
-✅ TipoEvento(adicionar esta entidade)
+✅ TipoEvento (adicionar esta entidade)
 ✅ Nome
 ```
 
@@ -108,28 +106,28 @@ EscalaCuto
 # Entidades
 
 - Artista
-    - Nome
-    - fk_música (Pivô)
+    - Nome ✅
+    - fk_música (Pivô) ✅
 - Música
-    - Nome
-    - fk_tom (Foreign Key)
-    - fk_artista (Pivô)
-    - BPM (Pivô)
-    - Cifra (Pivô)
-    - Lyrics (Pivô?)
-    - Link (Pivô)
+    - Nome ✅
+    - fk_tom (Foreign Key) ✅
+    - fk_artista (Pivô) ✅
+    - BPM (Pivô) ✅
+    - Cifra (Pivô) ✅
+    - Lyrics (Pivô?) ✅
+    - Link (Pivô) ✅
 - Tonalidade
-    - Tom
+    - Tom ✅
 - Função
-    - Nome
+    - Nome ✅
 - Músico
-    - Nome
-    - Doc. ID (CPF)
-- EscalaCulto (Alterar para Evento)
-    - Data (Datetime)
-    - fk_tipo (Pivô)
-    - Descrição
-- Tipo evento
+    - Nome ✅
+    - Doc. ID (CPF) ✅
+- EscalaCulto (Alterar para Evento) ✅
+    - Data (Datetime) ✅
+    - fk_tipo (Pivô) ✅
+    - Descrição ✅
+- Tipo evento ✅
 ```
 
 - Modelo antes das alterações nas Entidades
