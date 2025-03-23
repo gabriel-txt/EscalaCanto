@@ -17,6 +17,10 @@
     - [2025/Mar/15](#2025mar15)
       - [Anotações do Bill](#anotações-do-bill)
       - [Anotações do Gabriel](#anotações-do-gabriel)
+  - [🔗 Convenção de Nomenclatura para Chaves Estrangeiras](#-convenção-de-nomenclatura-para-chaves-estrangeiras)
+    - [📌 Relações 1:N → `fk_atributo`](#-relações-1n--fk_atributo)
+    - [🔁 Relações N:N (Tabelas Associativas / Pivot) → `atributo_id`](#-relações-nn-tabelas-associativas--pivot--atributo_id)
+    - [✅ Resumo das boas práticas](#-resumo-das-boas-práticas)
 
 ## Modelo
 
@@ -152,3 +156,59 @@ EscalaCuto
 - Modelos com os atributos definidos
 
 ![DER](./assets/modelo_entidade_relacionamento-MER_ver4.drawio.svg)
+
+---
+
+## 🔗 Convenção de Nomenclatura para Chaves Estrangeiras
+
+### 📌 Relações 1:N → `fk_atributo`
+
+Nas relações do tipo **um-para-muitos (1:N)**, utilizamos a convenção `fk_atributo` para indicar de forma explícita que aquele campo é uma **chave estrangeira** (foreign key).
+
+**Exemplo:**
+
+```sql
+CREATE TABLE musicas (
+    id SERIAL PRIMARY KEY,
+    nome TEXT NOT NULL,
+    fk_tonalidade INTEGER REFERENCES tonalidades(id)
+);
+```
+
+**Justificativa:**
+
+- A tabela `musicas` pertence a uma `tonalidade`, mas não necessariamente o contrário.
+- O prefixo `fk_` reforça o papel do campo como referência a outra entidade.
+- Facilita leitura e entendimento em estruturas onde o relacionamento é de dependência direta.
+
+---
+
+### 🔁 Relações N:N (Tabelas Associativas / Pivot) → `atributo_id`
+
+Nas tabelas que representam relacionamentos **muitos-para-muitos (N:N)**, seguimos a convenção `atributo_id`, como em `artista_id`, `musica_id`.
+
+**Exemplo:**
+
+```sql
+CREATE TABLE artistas_musicas (
+    artista_id INTEGER REFERENCES artistas(id),
+    musica_id INTEGER REFERENCES musicas(id),
+    PRIMARY KEY (artista_id, musica_id)
+);
+```
+
+**Justificativa:**
+
+- Esse padrão é amplamente adotado por frameworks ORM e comunidades SQL.
+- Deixa claro que o campo representa o `id` da entidade referenciada.
+- Evita confusões quando a mesma entidade aparece em várias relações (ex: `musica_id` em várias tabelas).
+- Melhora a legibilidade em `JOINs` e consultas SQL.
+
+---
+
+### ✅ Resumo das boas práticas
+
+| Tipo de relação | Convenção recomendada | Exemplo                    |
+|-----------------|------------------------|----------------------------|
+| 1:N             | `fk_nome_entidade`     | `fk_tonalidade`            |
+| N:N (pivot)     | `nome_entidade_id`     | `artista_id`, `musica_id`  |
