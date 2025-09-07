@@ -62,6 +62,14 @@ O projeto será desenvolvido utilizando tecnologias modernas para garantir escal
 4. **Segurança**: Proteção dos dados dos usuários e informações compartilhadas.
 5. **Escalabilidade**: Suporte para crescimento do número de usuários e músicas sem perda de desempenho.
 
+---
+
+## DevOps
+
+- [Infra](./infra/README.md)
+
+---
+
 ## Como Contribuir
 
 Esse projeto é aberto para colaboração! Se você deseja aprender ou contribuir, siga os passos:
