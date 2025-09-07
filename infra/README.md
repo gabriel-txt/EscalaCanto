@@ -1,0 +1,18 @@
+# INFRA
+
+## Postgres
+
+1. Criar o arquivo `.env` confome o exemplo em  `env.docker_example`.
+
+```bash
+cp .env.docker_example .env
+```
+
+:memo: Lembre de ajustar o `.env` de acordo com o ambiente, produção, homologação, desenvolvimento.
+
+2. Dentro da pasta onde contém o arquivo `docker-compose.yml` do postgres execute.
+
+```bash
+docker compose up -d
+```
+
