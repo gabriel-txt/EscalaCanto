@@ -16,3 +16,6 @@ cp .env.docker_example .env
 docker compose up -d
 ```
 
+---
+
+:bulb: Recomendamos usar como cliente do banco de dados o [DBeaver](https://dbeaver.io/download/)
