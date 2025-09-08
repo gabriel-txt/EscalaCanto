@@ -18,4 +18,10 @@ docker compose up -d
 
 ---
 
+## Restore do Banco de Dados
+
+```bash
+cat escalacanto.sql | docker exec -i escala_canto_db psql --username=admin --dbname=escala_canto
+```
+
 :bulb: Recomendamos usar como cliente do banco de dados o [DBeaver](https://dbeaver.io/download/)
