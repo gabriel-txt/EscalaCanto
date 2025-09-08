@@ -75,9 +75,12 @@ O projeto será desenvolvido utilizando tecnologias modernas para garantir escal
 Esse projeto é aberto para colaboração! Se você deseja aprender ou contribuir, siga os passos:
 
 1. Faça um fork do repositório.
-2. Crie uma branch para sua feature: `git checkout -b minha-feature`.
-3. Implemente e faça commits organizados.
-4. Envie um pull request.
+2. Clone o repositório ``` git clone link-repositorio ```
+3. Acesse a pasta do projeto do front-end ou backend  
+4. Dê o comando de ` npm install `
+5. Crie uma branch para sua feature: `git checkout -b minha-feature`.
+6. Implemente e faça commits organizados.
+7. Envie um pull request.
 
 Toda contribuição é bem-vinda, seja na parte de código, design, documentação ou testes! 🚀
 
