@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client"
+  output   = "./prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_URL")
+}
+
+model Artista {
+  id         String    @id @default(uuid())
+  nome       String    @db.varChar(255)
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+}
+
+model Artistas_Musicas {
+  id           String    @id @default(uuid())
+  artista_id   String    
+  musica_id    String    
+  bpm          Int?      
+  cifras       String?   
+  lyrics       String?   
+  link_versao  String?   
+}
+
+model Eventos {
+  id               String    @id @default(uuid())
+  data             DateTime  
+  fk_tipo_evento   String
+  descricao        String
+}
