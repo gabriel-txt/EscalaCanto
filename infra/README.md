@@ -5,7 +5,7 @@
 1. Criar o arquivo `.env` confome o exemplo em  `env.docker_example`.
 
 ```bash
-cp .env.docker_example .env
+cp .env.example .env
 ```
 
 :memo: Lembre de ajustar o `.env` de acordo com o ambiente, produção, homologação, desenvolvimento.
