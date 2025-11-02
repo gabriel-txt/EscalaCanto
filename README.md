@@ -84,12 +84,12 @@ Esse projeto é aberto para colaboração! Se você deseja aprender ou contribui
 
 Toda contribuição é bem-vinda, seja na parte de código, design, documentação ou testes! 🚀
 
+> [!IMPORTANT]
+> Os dados sensíveis estão descritos na página [ChewieSoft no Notion](https://www.notion.so/chewiesoft/EscalaCanto-29f87af01858809cb272f02e2f7b521d?source=copy_link)
+
 ## Licença
 
 Este projeto está sob a licença MIT. Sinta-se livre para utilizá-lo e modificá-lo conforme necessário!
-
-> [!IMPORTANT]
-> Os dados sensíveis estão descritos na página [ChewieSoft no Notion](https://www.notion.so/chewiesoft/EscalaCanto-29f87af01858809cb272f02e2f7b521d?source=copy_link)
 
 ---
 
