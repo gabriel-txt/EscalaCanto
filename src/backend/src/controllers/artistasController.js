@@ -1,4 +1,4 @@
-import prisma from '../prisma/client.js';
+import prisma from '../../prisma/client.js';
 
 class artistaController {
     // Mostrar lista de artistas
@@ -36,7 +36,26 @@ class artistaController {
 
     // Criar um novo artista
     async create(req, res) {
-        
+        try {
+            const { nome } = req.body;
+
+            // Verifica se o nome foi enviado
+            if (!nome) {
+                return res.status(400).json({ errors: 'Nome do artista é obrigatório' });
+            }
+
+            const artistaExistente = await prisma.artista.findUnique({ where: { nome } });
+
+            // Verifica se já existe um artista com o mesmo nome
+            if (artistaExistente) {
+                return res.status(409).json({ errors: 'Já existe um artista com esse nome' });
+            }
+
+            const novoArtista = await prisma.artista.create({ data: { nome }});
+            return res.status(201).json(novoArtista);
+        } catch (error) {
+            return res.status(500).json({ errors: 'Erro ao criar artista' });
+        }
     }
 
     // Atualizar um artista existente
@@ -50,4 +69,4 @@ class artistaController {
     }
 }
 
-export default artistaController;
+export default new artistaController();
