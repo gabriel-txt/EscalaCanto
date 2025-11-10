@@ -1,5 +1,4 @@
-import { Prisma } from '../../prisma/client/client.ts';
-
+import { Prisma } from '@prisma/client';
 class artistaController {
     // Mostrar lista de artistas
     async index(req, res) {
