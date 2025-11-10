@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 import app from './src/app.js';
-import prisma from './prisma/client.js';
+import prisma from './prisma/client';
 
 (async () => {
     try {

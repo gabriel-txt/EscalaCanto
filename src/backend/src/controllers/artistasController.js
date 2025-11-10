@@ -1,4 +1,4 @@
-import prisma from '../../prisma/client.js';
+import { Prisma } from '../../prisma/client/client.ts';
 
 class artistaController {
     // Mostrar lista de artistas
