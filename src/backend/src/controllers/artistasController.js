@@ -22,7 +22,7 @@ class artistaController {
             
             // Verifica se o id foi enviado
             if (!id) {
-                return res.status(400).json({errors: 'Id de artista não enviado'})
+                return res.status(400).json({errors: 'ID de artista não enviado'})
             }
 
             const artistaBuscado = await prisma.artistas.findUnique({ 
@@ -123,7 +123,7 @@ class artistaController {
             
             // Verifica se o id foi enviado
             if (!id) {
-                return res.status(400).json({errors: 'Id de artista não enviado'})
+                return res.status(400).json({errors: 'ID de artista não enviado'})
             }
 
             const artistaDeletado = await prisma.artistas.findUnique({ 
