@@ -64,9 +64,15 @@ O projeto será desenvolvido utilizando tecnologias modernas para garantir escal
 
 ---
 
+## Entrevistas
+
+- [Entrevistas com Usuários](./entrevistas/README.md/entrevistas.md)
+
 ## DevOps
 
 - [Infra](./infra/README.md)
+
+---
 
 ## Banco de Dados
 
