@@ -68,6 +68,10 @@ O projeto será desenvolvido utilizando tecnologias modernas para garantir escal
 
 - [Infra](./infra/README.md)
 
+## Banco de Dados
+
+- [Modelagem](./doc/readme.md)
+
 ---
 
 ## Como Contribuir
