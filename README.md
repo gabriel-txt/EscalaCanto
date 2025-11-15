@@ -64,6 +64,56 @@ O projeto será desenvolvido utilizando tecnologias modernas para garantir escal
 
 ---
 
+## Ambiente de Desenvolvimento
+
+### Pré-requisitos
+
+A partir da raiz do projeto navegue ate a pasta src/backend
+
+```bash
+cd .\src\backend\
+```
+
+Atualize os pacotes com o comando:
+
+```bash
+npm install
+```
+
+A partir do .env.example crie um arquivo .env com as variáveis de ambiente do EscalaCanto.
+
+```bash
+cp .env.example .env
+```
+
+Atualize as variáveis de ambiente do arquivo .env conforme o ambiente de desenvolvimento.
+
+### Infrastrutura do Banco de Dados
+
+Levante a infraestrutura do banco de dados.
+
+A partir da raiz do projeto navegue ate a pasta infra/postgres
+
+```bash
+cd .\infra\postgres\
+```
+
+A partir do .env.example crie um arquivo .env com as variáveis de ambiente do banco de dados.
+
+```bash
+cp .env.example .env
+```
+
+Atualize as variáveis de ambiente do arquivo .env com as credenciais do seu banco de dados.
+
+Utilize o Docker Compose para levantar o banco de dados PostgreSQL:
+
+```bash
+docker-compose up -d
+```
+
+---
+
 ## Entrevistas
 
 - [Entrevistas com Usuários](./entrevistas/README.md/entrevistas.md)
@@ -72,13 +122,9 @@ O projeto será desenvolvido utilizando tecnologias modernas para garantir escal
 
 - [Infra](./infra/README.md)
 
----
-
 ## Banco de Dados
 
 - [Modelagem](./doc/readme.md)
-
----
 
 ## Como Contribuir
 
